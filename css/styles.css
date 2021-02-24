@@ -358,6 +358,9 @@ a {
   padding-bottom: 30px;
 }
 
+.team-img {
+}
+
 .team-member {
   margin: 0px;
   margin-right: auto;
@@ -418,7 +421,7 @@ a {
 }
 
 .social-link:hover .social-link-icon,
-.social-link:hover .social-link-icon {
+.social-link:focus .social-link-icon {
   fill: #ffffff;
 }
 /*---TEAM END---*/
@@ -466,6 +469,7 @@ a {
 }
 
 .clients-icon {
+  display: block;
   fill: #afb1b8;
 }
 
@@ -491,6 +495,7 @@ a {
 
 .foot-main {
   display: flex;
+  align-items: baseline;
 }
 
 .logo.footer {
@@ -541,6 +546,7 @@ a {
 }
 
 .foot-social-title {
+  margin-top: 0px;
   margin-bottom: 20px;
   font-family: Roboto;
   font-weight: 700;
@@ -641,6 +647,12 @@ input[type="radio"].visually-hidden {
   padding-left: 24px;
 }
 
+.project-link:hover,
+.project-link:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 .projects-list {
   display: flex;
   flex-wrap: wrap;
@@ -661,9 +673,7 @@ input[type="radio"].visually-hidden {
   max-width: 370px;
 }
 
-.projects-list-item:hover {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
+.projects-list-item {
 }
 
 .projects-list-item:nth-child(1) {
@@ -677,6 +687,7 @@ input[type="radio"].visually-hidden {
 }
 
 .card-thumb {
+  max-height: 294px;
 }
 
 .projects-list-title {
